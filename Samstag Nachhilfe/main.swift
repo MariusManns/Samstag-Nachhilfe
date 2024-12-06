@@ -108,5 +108,89 @@ In Woche 1 hatten wir das Thema Bank es dreht sich alle ums Thema Bank. Die Aufg
 /*
  Wir erklären kurz wie man eine Tupel macht und wie man sie benutzt. Verwendung sind vielseitig
  Konvertieren von Datentypen besprechen wir ebenso im Laufe des Tages
- */
-// Aufgabe 5.Tupel und Konvertieren
+ */// Aufgabe 5.Tupel und Konvertieren
+
+/*
+ Der Kunde hat 5 € Kontoführungsgebühren
+
+ Subtrahiere die Kontoführungsgebühren vom Kontostand. Nutze dabei die -= Notation
+ Drucke dein Ergebnis aus
+ Der Kunde hat 5 % Zinsen auf sein Guthaben.
+
+ Lege eine Variable namens interestRate an, in der du die Zinsrate speicherst: 0.05
+ Rechne den Zinsbetrag aus, indem du den Kontostand mal die Zinsrate rechnest.
+ Rechne den neuen Kontostand aus, indem du den Zinsbetrag auf das Konto addierst.
+ Drucke dein Ergebnis aus.
+ */ // Aufgabe 6. Zinsen & Kontoführungsgebühren
+
+/*
+ Lege eine Variable an, in der du das Kreditkartenlimit des Kunden als Int speicherst: 1000 €
+ Lege eine Double Variable an, in der du den aktuellen Betrag, der die Karte belastet, speicherst: 123,45 €
+ Rechne aus, wie viel Prozent des Kreditrahmens genutzt wurde. Dafür kannst du folgende Formel verwenden:
+ BelasteterBetrag/Limit∗100
+ Gib das Ergebnis auf der Konsole aus und achte dabei darauf, dass nur zwei Nachkommastellen angezeigt werden.
+ Tipp
+ Erweitere das Programm so, dass der aktuelle belastete Betrag vom Benutzer eingegeben werden kann. Nutze dafür readLine()! und achte darauf, die Eingabe von einem String in einen Double umzuwandeln
+ Hinweis: Eine Eingabe über die Konsole kannst du mit readLine()! in eine Variable speichern.
+ z.B. var number: Int = Int(readLine()!)!
+ Das Programm stoppt an dieser Zeile und wartet darauf, dass etwas in die Konsole eingegeben wird.
+ Bei readLine kommt eigentlich ein Optional raus, die wir erst in Woche 4 machen. Bis dahin merk dir bitte einfach, immer das ! hinter readLine() zu schreiben!
+ *///  Aufgabe  7 Kreditrahmen
+
+/*
+ Kreditrahmen
+
+ Datei für die Bearbeitung: main
+ Als Kunde möchte ich mein Guthaben auf drei verschiedene Konten verteilen:
+
+ 1.    50% für langfristiges Sparen
+ 2.    30% für mittelfristige Ausgaben
+ 3.    20% für kurzfristige Ausgaben
+ Berechne die entsprechenden Beträge von deinem aktuellen Kontostand und gib sie in der Konsole aus. Achte darauf, dass die Ergebnisse auf zwei Nachkommastellen gerundet sind, um eine übersichtliche Darstellung zu gewährleisten.
+ */ // Aufgabe 8 Kreditrahmen
+
+/*
+
+ 
+"Als Nutzer möchte ich Überweisungen tätigen können."
+ 1. Header erstellen
+ Im Folgenden werden wir eine Überweisung simulieren und verschlüsseln!
+
+ Lege weitere Variablen an, in denen Informationen für die Überweisung gespeichert sind.
+ Diese Informationen sollen auf jeden Fall vorkommen:
+
+ Feld    Information
+ Währung    €
+ Betrag in €    500
+ Erstelle einen Header (= eine Art Überschrift, die vor der eigentlichen Nachricht gedruckt werden soll) als String und speichere ihn in einer passenden Variable ab. Ein Header ist ein kurzer Text, der vor der eigentlichen Nachricht geschickt wird.
+
+ Der Header besteht aus zwei Textzeilen. So soll der Header in der Konsole aussehen:
+ Überweisung
+ Unverschlüsselt
+ 2. Überweisungsnachricht erstellen
+
+ Datei für die Bearbeitung: Account1
+ Erstelle die Überweisungsnachricht als String und speichere sie in einer passenden Variable ab. Die Werte der Nachricht sollen aus bereits erstellten Variablen in deinem Code in den String eingefügt werden (Tipp: String Interpolation).
+
+ Schreibe also z.B. nicht einfach den Namen des Kunden in die Nachricht, sondern verwende dafür die bereits erstellte Variable.
+ So kann die Nachricht in der Konsole aussehen:
+
+ Name: Beate Beispiel
+
+ Bank: Beispielbank Deutschland, Berlin
+ Kontonummer: 12345678
+ IBAN: DE 1234 5678 9101 1213
+
+ Betrag: 500€
+
+ Verwendungszweck: Für unsere kommende Islandreise -
+ hier ist mein Beitrag zur gemeinsamen Abenteuerkasse,
+ damit wir unvergessliche Erlebnisse schaffen können!
+ 3. Header und Nachricht zusammensetzen
+
+ Datei für die Bearbeitung: Account1
+ Erstelle eine Variable, in der du den Header und die Nachricht in einen String kombinierst und abspeicherst.*/ // Aufgabe 9 Kontoüberweisung
+
+//Aufgabe 10 : ----- Verschlüssel Aufgabe 9 -------
+
+
